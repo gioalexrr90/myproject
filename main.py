@@ -2,5 +2,5 @@
 from Dominio import Dominio
 
 if __name__ == '__main__':
-    args = parser.parse_args()
-    print(args)
+    dominio = Dominio
+    print(dominio.getARecord('google.com'))
