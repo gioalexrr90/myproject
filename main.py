@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-from Dominio import Dominio
+import Dominio as dominio
 
 if __name__ == '__main__':
-    dominio = Dominio
     print(dominio.getARecord('google.com'))
