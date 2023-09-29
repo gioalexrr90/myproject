@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import Dominio as dominio
+from Dominio import *
 
 if __name__ == '__main__':
-    print(dominio.getARecord('google.com'))
+    print(Dominio.getARecord('google.com'))
